@@ -1,0 +1,20 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* önce ikonları terminalden yükledik. sonra import */
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css"; 
+
+/* @import "../../node_modules/@fortawesome/fontawesome-svg-core"; */
+
+
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+}
+
+.mt-n4 {
+    margin-top: -1.5rem !important;
+}
